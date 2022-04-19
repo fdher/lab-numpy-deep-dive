@@ -1,0 +1,10 @@
+18/04/22, itinerario
+
+
+-Codigo corre bien, sin embargo, hay cosas para mejorar como por ejemplo:
+
+Integracion de un menu para seleccionar dificultad o para reiniciar juego
+Cuando la serpiente choca, solamente se resetea y podemos mejorar esta parte
+Toca analizar el codigo, posiblemente tentativamente para el miercoles y checar que quiere hacer cada quien de lo anterior
+
+******Opcional, checar si la serpiente puede tener formas. Posiblemente usar un print? Para darle una forma mas de serpiente************
