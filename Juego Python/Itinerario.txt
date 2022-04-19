@@ -8,3 +8,7 @@ Cuando la serpiente choca, solamente se resetea y podemos mejorar esta parte
 Toca analizar el codigo, posiblemente tentativamente para el miercoles y checar que quiere hacer cada quien de lo anterior
 
 ******Opcional, checar si la serpiente puede tener formas. Posiblemente usar un print? Para darle una forma mas de serpiente************
+
+
+
+-Incluir flowchart para el juego, definir reglas del juego, procedimiento. Tal vez llegar en un df las puntuaciones.
