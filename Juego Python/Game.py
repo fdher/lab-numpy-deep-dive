@@ -1,44 +1,44 @@
 import random
-
-TextoPreguntasTrueFalse=['Las galletas Oreo son más antiguas que las galletas de chips de chocolate',
-'Napoleon Bonaparte era extremadamente bajo',
-'El protagonista de One Piece se llama Mugiwara No Adame', 
-'Los conejos son roedores',
-'La muralla China se ve desde el epsacio',
-'Los encendedores fueron inventados antes que los cerillos',
-'Will Smith progatonizo Matrix',
-'El personaje de Goku estuvo inspirado por un mono',
-'La gema verde del infinito representa el poder',
-'El creador de Bob Esponja es un cientifico',
-'El guitarrista de Led Zeppelin se llama Slash','Krillin murio un total de 3 veces en Dragon Ball Z',
-'El protagonista de Death Note se llama Night','Cristiano Ronaldo es conocido como el Comandante']
+import time
+contador_taches=0
+contador_wins=0
 
 
-TextoRespuestasTrueFalse=['Verdadero, Oreo fue inventado en 1912','Falso, aunque mucha gente cree que era bajito, media 1.70 m','Falso, se llama Mugiwara no Luffy',
-'Falso, los conejos son roedores','Falso, aunque muchos creen que se ve desde el espacio, solamente alcanza a verse a una altitud de 36km',
-'Verdadero, los encendedores fueron inventados en 1823 mientras que los cerrillos en 1826','Falso, es protagonizada por Keanu Reeves',
-'Verdadero, Akira Toriyama se inspiro en un mono para crear a Goku','Falso, representa el tiempo','Verdadero, Stephen Hillenburg fue Biologo Marino',
-'Falso, se llama Jimmy Page','Verdadero, Krillin murio un total de 3 veces',
-'Falso, se llama Light','Verdadero, SIIIIIIUUUUUUU']
-
-
-print(len(TextoPreguntasTrueFalse))
-print(len(TextoRespuestasTrueFalse))
-
-def Inicio(n):
-    str(n)
-    input('Dame un nombre', n)
-    print('Esto es un juego de preguntados, porfavor del siguiente menu elige el tema')
-    print('++'*5,'--'*5)
-
+sss
 def borraConsola():
     os.system("cls" if os.name == 'nt' else 'clear')
 
+def PreguntadosCiencia():
+    print("Bienvenido", n,'es hora de jugar Preguntados ciencia')
+    s=input('estas list@?')
+    if s=='Si':
+        
+def countdown(t):
+    while t:
+        mins, secs = divmod(t, 60)
+        timer = '{:02d}:{:02d}'.format(mins, secs)
+        print(timer, end="\r")
+        time.sleep(1)
+        t -= 1
+    print('Tiempo agotado')
+    contador_taches=contador_taches+1
+        
+    
 
-#Iniciar
+countdown(int(t))
 
 
-n=input('Dame un nombre')
+def countdown(num_of_secs):
+    while num_of_secs:
+        m, s = divmod(num_of_secs, 10)
+        min_sec_format = '{:02d}:{:02d}'.format(m, s)
+
+n=input('Dame un nombre ')
 print('Hola',n,'Esto es un juego de preguntados, porfavor del siguiente menu elige el tema')
 print('++'*5,'--'*5)
 
+print('1','Ciencia','*'*10)
+print('2','Cultura','*'*10)
+d=input('Elegir tema')
+
+#Llamas los prints, y despues que se elige el tema llamas a la funcion para limpiar pantalla y corres la funcion asociada a la series de preguntas
